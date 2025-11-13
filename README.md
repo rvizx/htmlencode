@@ -8,15 +8,7 @@ A command-line tool for encoding and decoding HTML entities, similar to base64 o
 
 ## Build
 
-### Quick Build (Recommended)
-
-```sh
-./build.sh
-```
-
-This creates a clean, stripped binary with no debug info.
-
-### Alternative: Autotools Build
+### Autotools Build
 
 ```sh
 ./autogen.sh && ./configure && make
